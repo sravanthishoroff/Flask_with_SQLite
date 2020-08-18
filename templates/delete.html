@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body%} 
+
+<div class="jumbotron text-center">   
+    <h3>Remove Employee from the list</h3>     
+    <form action="/deleterecord" method="post">  
+    Employee Id <input type="text" name="id">  
+    <input type="submit" value="Submit">  
+</form>
+</div>
+{% endblock %} 
